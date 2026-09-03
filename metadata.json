@@ -1,0 +1,6 @@
+{
+  "name": "Dashboard Ejecutivo & Operativo McKinsey",
+  "description": "Dashboard interactivo con informe ejecutivo formato McKinsey, análisis por segmentos y sectores, y drill-down operativo de indicadores clave de planta.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
