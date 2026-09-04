@@ -58,7 +58,7 @@ export const Header: React.FC<HeaderProps> = ({
 
   return (
     <header className="bg-slate-900/95 backdrop-blur-md text-white border-b border-slate-800/80 sticky top-0 z-40 shadow-xs">
-      {/* Top Banner with McKinsey styling */}
+      {/* Top Banner with C-Suite styling */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
         <div className="flex items-center space-x-3">
           <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-blue-500 to-indigo-600 flex items-center justify-center shadow-xs border border-blue-400/20 shrink-0">
@@ -67,7 +67,7 @@ export const Header: React.FC<HeaderProps> = ({
           <div>
             <div className="flex items-center space-x-2">
               <span className="text-[10px] uppercase tracking-wider font-semibold text-blue-400">
-                McKinsey Operations Practice
+                C-Suite Operations Practice
               </span>
               <span className="text-slate-600">•</span>
               <span className="text-[11px] font-mono text-slate-400 flex items-center gap-1">
