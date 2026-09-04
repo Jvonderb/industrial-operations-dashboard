@@ -141,7 +141,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             <span className="font-semibold text-slate-800">Apex Manufacturing Operations</span>
             <span className="text-slate-300">•</span>
-            <span className="text-slate-600">Auditoría de Planta & Diagnóstico McKinsey</span>
+            <span className="text-slate-600">Auditoría de Planta & Diagnóstico C-Suite</span>
           </div>
           <div className="flex items-center gap-3 font-mono text-[11px] text-slate-500">
             <span className="px-2 py-0.5 rounded-full bg-slate-100 border border-slate-200/60">1,000 Órdenes</span>
