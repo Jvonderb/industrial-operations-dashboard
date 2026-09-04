@@ -28,7 +28,7 @@ export const Header: React.FC<HeaderProps> = ({
   const tabs = [
     {
       id: 'executive' as ActiveTab,
-      label: 'Informe Ejecutivo (McKinsey)',
+      label: 'Informe Ejecutivo C-Suite)',
       icon: Building2,
       badge: 'C-Suite',
       badgeColor: 'bg-amber-100 text-amber-800 border-amber-300',
