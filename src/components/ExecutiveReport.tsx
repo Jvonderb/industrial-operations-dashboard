@@ -87,13 +87,13 @@ export const ExecutiveReport: React.FC<ExecutiveReportProps> = ({
 
   return (
     <div className="space-y-8 pb-12">
-      {/* McKinsey Memo Header Banner */}
+      {/* C-Suite Memo Header Banner */}
       <div className="bg-white rounded-2xl shadow-xs border border-slate-200/80 p-6 sm:p-8">
         <div className="flex flex-col lg:flex-row lg:items-center lg:justify-between border-b border-slate-100 pb-5 mb-6 gap-4">
           <div>
             <div className="inline-flex items-center gap-2 px-2.5 py-1 rounded-full bg-slate-100/90 border border-slate-200/80 text-[11px] font-semibold text-slate-700 tracking-wider uppercase mb-2">
               <Sparkles className="w-3.5 h-3.5 text-blue-600" />
-              Documento Ejecutivo Confidencial • Modelo McKinsey 7S & Kaizen
+              Documento Ejecutivo Confidencial • Modelo C-Suite 7S & Kaizen
             </div>
             <h2 className="text-xl sm:text-2xl font-bold tracking-tight text-slate-900">
               Diagnóstico Estratégico de Manufactura & Plan de Recuperación
@@ -202,7 +202,7 @@ export const ExecutiveReport: React.FC<ExecutiveReportProps> = ({
         </div>
       </div>
 
-      {/* McKinsey Strategic Insights & Actionable Cards */}
+      {/* C-Suite Strategic Insights & Actionable Cards */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Left Column: Insight selector pills */}
         <div className="lg:col-span-4 space-y-3">
@@ -260,7 +260,7 @@ export const ExecutiveReport: React.FC<ExecutiveReportProps> = ({
           </div>
         </div>
 
-        {/* Right Column: Deep-dive on active Insight (McKinsey Structure) */}
+        {/* Right Column: Deep-dive on active Insight (C-Suite Structure) */}
         <div className="lg:col-span-8 bg-white rounded-2xl shadow-xs border border-slate-200/80 p-6 sm:p-7 flex flex-col justify-between">
           <div>
             {/* Header of Active Insight */}
@@ -291,7 +291,7 @@ export const ExecutiveReport: React.FC<ExecutiveReportProps> = ({
               </p>
             </div>
 
-            {/* Evidence & Findings vs Root Cause (2-Column McKinsey Breakdown) */}
+            {/* Evidence & Findings vs Root Cause (2-Column C-Suite Breakdown) */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-5">
               <div className="p-4 rounded-xl bg-slate-50/70 border border-slate-200/70">
                 <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-slate-700 mb-2">
@@ -491,7 +491,7 @@ export const ExecutiveReport: React.FC<ExecutiveReportProps> = ({
         </div>
       </div>
 
-      {/* McKinsey 30-60-90 Days Strategic Transformation Roadmap */}
+      {/* C-Suite 30-60-90 Days Strategic Transformation Roadmap */}
       <div className="bg-slate-900 text-white rounded-2xl shadow-xs p-6 sm:p-8 border border-slate-800/90">
         <div className="flex items-center justify-between border-b border-slate-800/80 pb-4 mb-6">
           <div>
